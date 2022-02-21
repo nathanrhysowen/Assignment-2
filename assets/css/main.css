@@ -2509,15 +2509,17 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			align-content: space-between;
 		}
 
 		ul.actions.special {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
-			justify-content: center;
+			justify-content:space-around;
 			width: 100%;
 			margin-left: 0;
+			align-content: space-between;
 		}
 
 			ul.actions.special li:first-child {
@@ -3363,6 +3365,7 @@ input, select, textarea {
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
 			color: #636363;
+			font-weight: bold;
 		}
 
 		#main blockquote {
