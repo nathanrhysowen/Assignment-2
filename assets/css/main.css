@@ -3127,8 +3127,9 @@ input, select, textarea {
 					left: 0.5em;
 					display: block;
 					margin: 0 auto;
-					max-width:fit-content;
-					width: 40%
+					width: auto ;
+                    max-width: 50% ;
+                    height: auto ;
 
 				}
 
