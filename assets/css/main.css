@@ -3222,7 +3222,7 @@ input, select, textarea {
 		background-color: #fc8b77;
 		color: black;
 		position: absolute;
-		width: 54em;
+		width: 54.04em;
 		max-width: calc(100% - 3em);
 		padding: 1em;
 		background-color: #fc8b77;
@@ -3310,7 +3310,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: #fc8b77;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -3788,3 +3788,9 @@ input, select, textarea {
 			}
 
 		}
+
+	
+		
+.microphone{
+	color: red;
+}
