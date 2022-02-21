@@ -3797,5 +3797,13 @@ input, select, textarea {
 	
 		
 .microphone{
-	color: red;
+	color: #b3d0ff;
+}
+
+.food{
+	color: #c3ffbf;
+}
+
+.wash{
+	color: #fed9ff;
 }
