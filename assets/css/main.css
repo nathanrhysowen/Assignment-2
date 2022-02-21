@@ -4004,8 +4004,8 @@ input, select, textarea {
 
 
 	.logo img{
-		position: relative;
-		bottom: 250px;
-		right: 227px;
-		width: 40%;
-		height: 40%;}
+		position: fixed;
+		bottom: 350px;
+		right: 465px;
+		width: 75%;
+		height: 50%;}
