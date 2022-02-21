@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #BCA46C 15%, #ccbc8c 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #BCA46C 15%, #ccbc8c 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #BCA46C 15%, lightcoral 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #BCA46C 15%, #dacca1 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2637,7 +2637,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 
 		header.major h2 {
@@ -3009,6 +3009,7 @@ input, select, textarea {
 				display: block;
 				border-radius: 100%;
 				width: 16em;
+				height: 15em;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3083,6 +3084,7 @@ input, select, textarea {
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			color: black;
 		}
 
 		#header.alt {
@@ -3119,9 +3121,11 @@ input, select, textarea {
 			}
 
 				#header.alt .logo img {
+					position: relative;
+					left: 0.5em;
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					max-width: 40%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3215,17 +3219,18 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #ffffff;
-		color: #636363;
+		background-color: #fc8b77;
+		color: black;
 		position: absolute;
-		width: 64em;
-		max-width: calc(100% - 4em);
+		width: 54em;
+		max-width: calc(100% - 3em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #fc8b77;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+		
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3546,10 +3551,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, white, lightcoral, #fc6f56);
+			background-image: -webkit-linear-gradient(90deg, white, lightcoral, #fc6f56);
+			background-image: -ms-linear-gradient(90deg, white, lightcoral, #fc6f56);
+			background-image: linear-gradient(90deg, white, lightcoral, #fc6f56);
 		}
 
 		#main table tbody tr {
