@@ -3012,7 +3012,7 @@ input, select, textarea {
 			.spotlight .image img {
 				display: block;
 				border-radius: 100%;
-				width: 16em;
+				max-width: 16em;
 				height: 15em;
 			}
 
