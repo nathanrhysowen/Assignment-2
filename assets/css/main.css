@@ -3706,11 +3706,13 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		
 	}
 
 		#footer > * {
 			width: calc(50% - 2em);
-			margin-left: 2em;
+			margin-left: 14.5em;
+			align-content: center;
 		}
 
 		#footer .copyright {
@@ -3846,7 +3848,7 @@ body{
     font-weight: 500;
 }
 .form-row{
-    display: flex;
+    display:flex;
     width: 90%;
     margin: 0 auto;
 	
