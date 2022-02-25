@@ -3130,7 +3130,7 @@ input, select, textarea {
 					display: block;
 					margin: 0 auto;
 					width: auto ;
-                    max-width: 50% ;
+                    max-width: 75% ;
                     height: auto ;
 
 				}
