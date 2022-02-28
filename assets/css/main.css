@@ -1933,7 +1933,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: red;
+			background-color: lightcoral;
 		}
 
 		input[type="submit"]:active,
@@ -3132,8 +3132,8 @@ input, select, textarea {
 					display: block;
 					margin: 0 auto;
 					width: auto ;
-                    max-width: 75% ;
-					min-width: 75%;
+                    max-width: 50% ;
+					min-width: 50%;
                     height: auto ;
 
 				}
@@ -3243,12 +3243,12 @@ input, select, textarea {
 		
 	}
 
-	@media (max-width:738px){
+	/*@media (max-width:738px){
 		#nav{
-			max-width: ;
+			width: 
 		} 
 
-	}
+	}*/
 
 		#nav input, #nav select, #nav textarea {
 			color: #636363;
@@ -3717,7 +3717,7 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		padding: 5em 5em 3em 5em ;
-		width: calc(100% + 2em);
+		width: calc(100% + 10em);
 		margin: 0 0 3em -2em;
 		
 	}
@@ -3864,6 +3864,7 @@ body{
     display:flex;
     width: 90%;
     margin: 0 auto;
+	justify-content: 
 	
 }
 form select, form input{
@@ -3877,6 +3878,7 @@ form select, form input{
     border: none;
     border-bottom: 1px solid #eee;
     font-weight: 300;
+	
 	
 }
 form input[type = text], form input[type = number], form input::placeholder, select{
