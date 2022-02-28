@@ -2401,7 +2401,9 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+				max-width: 75%;
+				float: left;
+				
 			}
 
 		.image.main {
@@ -3910,3 +3912,10 @@ form input[type = submit]:hover{
 }
 
 
+.opening { 
+	display:block;
+	float:right;
+	position:relative;
+	right: 100px;
+	top: 90px;
+}
