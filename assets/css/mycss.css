@@ -136,10 +136,23 @@
 					float:none;
 			
 			
-					padding-left: 50px;
-					position:initial; }
+					padding-left: 2px;
+					position:initial;
+				    margin-left: 60px;}
 					/* right: 125px; */
 					/* top: 100px; */ }
+
+					.map{
+						margin-left: 40px;
+					}
+
+					.maps h1{
+						margin-left: 70px;
+					}
+
+					.op h1{
+						margin-right: 55px;
+					}
 	
 	
 	
@@ -152,6 +165,7 @@
 							flex-direction:column;
 							flex-wrap: wrap;
 							text-align: center;
+							padding-left: px;
 						}
 	
 						
@@ -183,5 +197,20 @@
 				height: 700px;
 			}
 		}
+
+		.menu{
+			list-style: none;
+			
+		}
+
+		.menu li{
+		margin-bottom:10px;
+		}
+
+		.menu h2{
+			margin-top:5px;
+		}
+
+		
 
 	

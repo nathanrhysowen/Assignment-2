@@ -2986,6 +2986,7 @@ input, select, textarea {
 		-ms-align-items: center;
 		align-items: center;
 		margin: 0 0 2em 0;
+		margin-top:80px;
 	}
 
 		.spotlight .content {
@@ -3014,8 +3015,8 @@ input, select, textarea {
 			.spotlight .image img {
 				display: block;
 				border-radius: 100%;
-				max-width: 16em;
-				height: 15em;
+				width: 150px;
+				height: 200px;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3223,13 +3224,14 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #ffffff;
+		background-color: rgb(252, 170, 170);
 		color: #636363;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
+		min-width:5em;
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: rgb(252, 170, 170);
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3316,7 +3318,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: rgb(252, 170, 170);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -3333,7 +3335,10 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				display: inline-block;
+				padding: 2px;
+				max-width: calc(100% - 2em); 
+				
 			}
 
 				#nav + #main {
