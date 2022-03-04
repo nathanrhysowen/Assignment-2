@@ -1,8 +1,8 @@
 .submit{
 	display:flex;
 	justify-content:center;
-	align-items: center;
-	margin: 0 auto;
+	align-items:center;
+	margin-top: 0px auto;
 	height:65px;
 	font-weight: 800;
 	
@@ -44,8 +44,8 @@
 	object-fit:cover;
 	object-position: center;
 	justify-content: space-evenly;
-	border: 15px solid lightcoral;
-	border-radius: 0%;
+	border: 20px solid lightcoral;
+	border: 0%;
 	
 }
 
@@ -64,3 +64,30 @@
 	font-weight: 800;
 	color: white;
 }
+
+.maps{
+	margin-top: 50px;
+	padding: 3em 2em 1em 2em ;
+	padding-top: black;
+	height: 500px;
+}
+
+.maps h1{
+	text-align: center;
+}
+
+@media screen and (max-width: 1457px){
+	.maps{
+		height: 550px;
+	}
+	
+	.op{
+		display:flex;
+	    list-style:none;
+	    align-items: center;
+        flex-direction:column;
+        flex-wrap: wrap;
+	    text-align: center;
+					}
+	}
+
