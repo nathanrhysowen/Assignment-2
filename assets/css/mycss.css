@@ -55,7 +55,7 @@
 	
 }
 
-.openmicreturn{
+.openmic{
 	display:flex;
 	justify-content:center;
 	align-items: center;
@@ -165,7 +165,7 @@
 							flex-direction:column;
 							flex-wrap: wrap;
 							text-align: center;
-							padding-left: px;
+							
 						}
 	
 						
@@ -211,6 +211,22 @@
 			margin-top:5px;
 		}
 
+@media screen and (min-width: 1280px) {
+	.op{
+		display:inline-block;
+		list-style:none;
+		align-items: center;
+		flex-direction:column;
 		
+		text-align: center;
+		margin-right:150px;
+		margin-top: 0px;
+		position: relative;
+		left:390px;
+				
+			}
+
+			
+		}
 
 	
