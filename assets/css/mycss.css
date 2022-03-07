@@ -246,3 +246,13 @@
 	flex-direction: column;
 	
 }
+
+.machineprice li {
+	display: block;
+	list-style: none;
+}
+
+.form-row label{
+	position: relative;
+	left: 65px;
+}
