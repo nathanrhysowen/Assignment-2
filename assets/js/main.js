@@ -115,6 +115,11 @@
 
 		}
 
+
+		function togglePopup(){
+			document.getElementById("popup-1").classList.toggle("active");
+		}
+
 	// Scrolly.
 		$('.scrolly').scrolly({
 			speed: 1000
