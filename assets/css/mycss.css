@@ -55,7 +55,7 @@
 	
 }
 
-.openmic{
+.openmic {
 	display:flex;
 	justify-content:center;
 	align-items: center;
@@ -229,4 +229,20 @@
 			
 		}
 
+		
+		@media screen and (max-width: 361px) {
+
+			.nav {
+				display: inline-block;
+				padding: 2px;
+				max-width: calc(100% - 32m);;
+			}
+
+		}
+
 	
+.main-special form{
+	display: flex;
+	flex-direction: column;
+	
+}
