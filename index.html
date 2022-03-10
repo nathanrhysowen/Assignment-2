@@ -63,26 +63,26 @@
 							</header>
 							<ul class="features">
 								<li>
-									<a href =  "openmic.html"  class = " microphone"><i class="fa-solid fa-7x fa-microphone-lines"></i></a>
+									<a href =  "#openmic"  class = " microphone"><i class="fa-solid fa-7x fa-microphone-lines"></i></a>
 									<h3>Open Mic </h3>
 									<p>We host an open mic night every Friday! </p>
 								</li>
 								<li>
-									<a href = "#" class = "food"><i class="fa-solid fa-7x fa-utensils"></i></a>
+									<a href = "#menu" class = "food"><i class="fa-solid fa-7x fa-utensils"></i></a>
 									<h3>Food and Drink</h3>
 									<p>Our 5 star bakery provides hot drinks, cold drinks as well as delicious snacks!</p>
 								</li>
 								<li>
-									<a href = "elements.html" class = "wash"><i class="fa-solid fa-7x fa-soap"></i></a>
+									<a href = "#second" class = "wash"><i class="fa-solid fa-7x fa-soap"></i></a>
 									<h3>Wash</h3>
 									<p>With a grand total of 100 washers and dryers, you'll never be waiting in line!</p>
 								</li>
 							</ul>
 							<footer class="major">
 								<ul class="actions special">
-									<li><a href="openmic.html" class="button">Book a slot</a></li>
-									<li><a href="generic.html" class="button">Menu</a></li>
-									<li><a href="machines.html" class="button">Book a machine</a></li>
+									<li><a href="#openmic" class="button">Book a slot</a></li>
+									<li><a href="#menu" class="button">Menu</a></li>
+									<li><a href="#second" class="button">Book a machine</a></li>
 								</ul>
 							</footer>
 						</section>
@@ -111,20 +111,15 @@
 
 									<select placeholder = "machine" name = "machine">
 										
-										<option value = "Machine">Washer</option>
+										<option value = "Machine">9kg small Washer</option>
+										<option value = "Machine">13kg mediumWasher</option>
+										<option value = "Machine">9kg large Washer</option>
 										<option value = "Machine">Dryer</option>
 									</select>
 				
-									<select name = "days">
-										<option value = "day-select">Select day</option>
-										<option value = "Friday">Monday</option>
-										<option value = "Friday">Tuesday</option>
-										<option value = "Friday">Wednesday</option>
-										<option value = "Friday">Thursday</option>
-										<option value = "Friday">Friday</option>
-										<option value = "Friday">Saturday</option>
-										<option value = "Friday">Sunday</option>
-									</select>
+									<label for="date">Date</label>
+									<input type="date" id ="date" name = "date">
+										
 
 									<select name = "hours">
 										<option value = "hour-select">Select hour</option>
@@ -171,6 +166,16 @@
 								</div>
 								</div>
 							</form>
+
+							<div id = "machineprice" class = "machineprice">
+								<h2>Machine prices</h2>
+									<li>9kg small machine: £4.00</li>
+									<li>13kg Medium Machine: £6.00</li>
+									<li>18kg Large Machine: £7.00</li>
+									<li>Drying for 10 mins: £1.00</li>
+									
+
+							</div>
 							
 							<footer class="major">
 								
