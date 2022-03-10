@@ -159,7 +159,7 @@
 						.op{
 							display:flex;
 							list-style:none;
-							
+						
 							flex-direction:column;
 							flex-wrap: wrap;
 							text-align: center;
@@ -253,3 +253,38 @@
 .op li{
 	list-style: none;
 }
+
+@media screen and (max-width: 361px){
+	.op{
+		position:absolute;
+		margin-top: 175px;
+
+	}
+}
+
+.menubutton{
+  background-color: #ee7c7c; 
+  border: none;
+  color: white;
+  padding:3px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.menubutton:hover{
+	background-color:#ee7c7c;
+	color:#ee7c7c
+	
+}
+
+@media screen and (max-width: 1920px){
+	.op li{
+		margin-left:550px;
+	}
+}
+
+
+
