@@ -254,7 +254,7 @@
 	list-style: none;
 }
 
-@media screen and (max-width: 361px){
+@media screen and (max-width: 375px){
 	.op{
 		position:absolute;
 		margin-top: 175px;
